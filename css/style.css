@@ -3,6 +3,11 @@ body {
     background-size: cover;
     background-blend-mode: darken;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 75px;
+
 }
 
 header {
@@ -35,20 +40,21 @@ div2 {
     width: 400px;
     height: 225px;
     align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto
+    margin: 0 auto
 }
 
 div3 {
     align-items: center;
-    position: absolute;
-    top: 1;
-    right: 0;
-    bottom: 0;
-    left: 0;
     margin: 0 auto
+}
+
+iframe {
+    width: 400px;
+    height: 225px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h3 {
+    color: white;
 }
